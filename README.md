@@ -50,9 +50,16 @@
 
 ![e9e4d526dd04eb08a3ba19a1cacf282](./assets/e9e4d526dd04eb08a3ba19a1cacf282.jpg)
 
-### 第4题（10分）
+### 第四题（10分）
 
 ![9356e9c508fa4ef96fb5e16b55f83ea](./assets/9356e9c508fa4ef96fb5e16b55f83ea.jpg)
 
+### 第五题（20分）
+
+![10f568ef9b11957750ac9abcac5f131](./assets/10f568ef9b11957750ac9abcac5f131.jpg)
+
 ## 2024年模拟真题（我自制的， 把没考过的知识点补全）
 
+### 第二题（20分）
+
+![e39af21bf63670d6df227806917b160](./assets/e39af21bf63670d6df227806917b160.jpg)
