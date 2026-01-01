@@ -44,31 +44,21 @@
 
 ### 第一题（20分）householder完全和约化QR分解
 
-用 Householder 变换对 $A = \begin{bmatrix} 1 & -4 \\ 2 & 3 \\ 2 & 2 \end{bmatrix}$ 进行完全、约化 QR 分解。
-
 ![19a1c993c1354ddfc8f91404a7cab12](./assets/19a1c993c1354ddfc8f91404a7cab12.jpg)
 
 ### 第二题（20分）完全和约化SVD分解
-
-对 $A = \begin{bmatrix} 1 & 1 \\ 1 & 1 \\ 0 & 0 \end{bmatrix}$ 进行完全和约化 SVD 分解。
 
 ![33f72f7a0574b01d597e0d641bee7be](./assets/33f72f7a0574b01d597e0d641bee7be.jpg)
 
 ### 第三题（20分）样本均值、离差阵、协方差阵、相关阵
 
-给定样本矩阵 $X = \begin{bmatrix} 42 & 4 \\ 45 & 2 \\ 43 & 3 \\ 38 & 4 \\ 50 & 5 \\ 52 & 6 \\ 45 & 4 \end{bmatrix}$，计算样本均值、离差阵、协方差阵及相关阵。
-
 ![d9644499a1a264a44d4e888695e0eb8](./assets/d9644499a1a264a44d4e888695e0eb8.jpg)
 
 ### 第四题（10分）背诵多元正态分布的定义
 
-写出多元正态分布的四种定义。
-
 ![c7b7bf079bd3ff19740c90b5545e529](./assets/c7b7bf079bd3ff19740c90b5545e529.jpg)
 
 ### 第六题（10分）证明凸函数的充要条件
-
-设 $f(x)$ 为 $D$ 集上的函数，$x, y \in D, t \in [0, 1]$。求证：关于 $t$ 的函数 $\varphi(t) = f(tx + (1-t)y)$ 为凸函数当且仅当 $f(x)$ 是凸函数。
 
 ![5588bf2170f65d89454989732f02ddf](./assets/5588bf2170f65d89454989732f02ddf.jpg)
 
@@ -76,34 +66,13 @@
 
 ### 第三题（20分）求线性回归、回归平方和、决定系数
 
-设 $y = \beta_0 + \beta_1 x_1 + \beta_2 x_2$，给定如下数据：
-$$\begin{array}{cc|c}
-x_1 & x_2 & y \\ \hline
-0 & -1 & 1 \\
-1 & -1 & 4 \\
-2 & 2 & 3 \\
-3 & 3 & 8 \\
-4 & 2 & 9
-\end{array}$$
-(1) 求 $\beta_0, \beta_1, \beta_2$ 的最小二乘估计；  
-(2) 求 $\hat{y}$ 与 $\varepsilon$，残差平方和 $Q$；  
-(3) 求回归平方和 $U$ 与决定系数 $R^2$。
-
 ![e9e4d526dd04eb08a3ba19a1cacf282](./assets/e9e4d526dd04eb08a3ba19a1cacf282.jpg)
 
 ### 第四题（10分）证明多元正态分布不相关等价于独立
 
-4. (10分) 已知随机向量 $X = \begin{bmatrix} X_1 \\ X_2 \\ \vdots \\ X_n \end{bmatrix} \sim N_n(\mu, \Sigma)$ 服从多元正态分布，其中 $\mu$ 为均值向量，$\Sigma$ 为协方差矩阵。试证：若 $\Sigma$ 是对角阵，则 $X_1, X_2, \dots, X_n$ 相互独立。
-
 ![9356e9c508fa4ef96fb5e16b55f83ea](./assets/9356e9c508fa4ef96fb5e16b55f83ea.jpg)
 
 ### 第五题（20分）大M法求解线性规划
-
- 用大 M 法求解线性规划：
-$$\begin{aligned}
-\min z = & -3x_1 + x_2 + 2x_3 \\
-\text{s.t. } & \begin{cases} 3x_1 + 2x_2 - 3x_3 = 6 \\ -x_1 + 2x_2 - x_3 = -4 \\ x_1, x_2, x_3 \ge 0 \end{cases}
-\end{aligned}$$
 
 ![10f568ef9b11957750ac9abcac5f131](./assets/10f568ef9b11957750ac9abcac5f131.jpg)
 
@@ -111,18 +80,9 @@ $$\begin{aligned}
 
 ### 第二题（20分）施密特方法求QR分解
 
-用 Gram-Schmidt 方法对 $A = \begin{bmatrix} 4 & 2 & 1 \\ 2 & 0 & -1 \\ 2 & 2 & 1 \end{bmatrix}$ 进行 QR 分解。
-
 ![e39af21bf63670d6df227806917b160](./assets/e39af21bf63670d6df227806917b160.jpg)
 
 ### 第四题（20分）根据马氏距离判别样本类别
-
-已知两类样本：
-$$X^{(1)} = \begin{bmatrix} 2 & 12 \\ 4 & 10 \\ 3 & 8 \\ 3 & 10 \end{bmatrix}, \quad X^{(2)} = \begin{bmatrix} 5 & 7 \\ 3 & 9 \\ 4 & 5 \end{bmatrix}$$
-假设两类样本均值向量不同而协方差矩阵相同。  
-(1) 求第一类样本、第二类样本的离差阵 $A_1, A_2$；  
-(2) 求两类样本的合并样本协方差阵 $S$；  
-(3) 样本 $[2, 8]$ 按马氏距离应归于哪一类？
 
 ![13db7ee47c45b313e92160573008d22](./assets/13db7ee47c45b313e92160573008d22.jpg)
 
