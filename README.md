@@ -50,7 +50,7 @@
 
 ### 第一题（20分）householder完全和约化QR分解
 
-![19a1c993c1354ddfc8f91404a7cab12](./assets/19a1c993c1354ddfc8f91404a7cab12.jpg)
+![84ea77b944a24a902745d6a82c3eefa](./assets/84ea77b944a24a902745d6a82c3eefa.jpg)
 
 ### 第二题（20分）求竖长矩阵的完全和约化SVD分解
 
